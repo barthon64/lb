@@ -1,0 +1,2 @@
+<a style="display: block; margin-bottom: 5px; @if(strpos(Request::route()->getName(), 'admin.posts.')!==false) color: brown @endif " href="{{route('admin.posts.index')}}">Записи</a>
+<a style="display: block; margin-bottom: 5px; @if(strpos(Request::route()->getName(), 'admin.comments.')!==false) color: brown @endif "  href="{{route('admin.comments.index')}}">Комментарии</a>
